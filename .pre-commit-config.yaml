@@ -42,7 +42,7 @@ repos:
 
 # check with commitcanvas.
 - repo: https://github.com/CommittedTeam/CommitCanvas
-  rev: 8541d342173686176a7b4217ca249f0897c9d5fb
+  rev: 0e134ab74ec2393d8162f723ecc78c132ce2202a
   hooks:
     - id: commitcanvas
       language_version: python3.7
