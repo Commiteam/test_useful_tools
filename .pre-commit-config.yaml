@@ -40,11 +40,10 @@ repos:
   - id: reorder-python-imports
     stages: [commit]
 
-# check with commitcanvas.
+# check with commitcanvas
 - repo: https://github.com/CommittedTeam/CommitCanvas
-  rev: 7984622121b8e568d6f41f59930a126fc0de32d7
+  rev: 9215341b7c10db8e03a9f6667a26cfc321f3cc6b
   hooks:
     - id: commitcanvas
-      language_version: python3.7
       language: python
       stages: [commit-msg]
