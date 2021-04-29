@@ -1,7 +1,7 @@
 minimum_pre_commit_version: 1.21.0
 repos:
 
-# check commit message with commitc
+# check commit message with commit
 - repo: https://github.com/CommittedTeam/CommitCanvas
   rev: 9ee2c7736bf19f1d64758d0e945c60b0ef10053f
   hooks:
