@@ -3,8 +3,8 @@ repos:
 
 # check commit message with commitcanvas
 - repo: https://github.com/CommittedTeam/CommitCanvas
-  rev: 7b40374cf0b21560b048738cdb59a98df7c115fe
+  rev: 9ee2c7736bf19f1d64758d0e945c60b0ef10053f
   hooks:
     - id: commitcanvas
       language: python
-      stages: [prepare-commit-msg]
+      stages: [commit-msg]
