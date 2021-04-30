@@ -1,9 +1,9 @@
 minimum_pre_commit_version: 1.21.0
 repos:
 
-# check commit message with com
+# check commit message with co
 - repo: https://github.com/CommittedTeam/CommitCanvas
-  rev: b69cfe22103f23577067fcedfa604dffa2f1f530
+  rev: e05660a3c1d07c945b61519f673c8d8306eeaf62
   hooks:
     - id: commitcanvas
       language: python
