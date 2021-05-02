@@ -7,4 +7,4 @@ repos:
   hooks:
     - id: commitcanvas
       language: python
-      stages: [commit-msg]
+      stages: [prepare-commit-msg]
