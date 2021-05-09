@@ -2,9 +2,9 @@ minimum_pre_commit_version: 1.21.0
 repos:
 
 - repo: https://github.com/CommittedTeam/CommitCanvas
-  rev: 3ec0d00ffcab8cd51c8f3fa5faf47f95b5028c84
+  rev: 00d9ba3291c1512dbe1a4616fad27e7ca1d522ac
   hooks:
     - id: commitcanvas
       language: python
       stages: [prepare-commit-msg]
-      args: ['--path', 'description']
+      args: ['--path=description']
