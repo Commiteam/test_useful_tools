@@ -5,7 +5,8 @@ description = ""
 authors = ["bagashvilit <bagashvilit@allegheny.edu>"]
 
 [tool.poetry.dependencies]
-python = "^3.7"
+python = ">=3.7.1"
+reporover = { git = "https://github.com/CommittedTeam/RepoRover", branch = "repo-mining" }
 
 [tool.poetry.dev-dependencies]
 
