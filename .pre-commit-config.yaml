@@ -6,4 +6,5 @@ repos:
   hooks:
     - id: commitcanvas
       language: python
+      stages: [prepare-commit-msg]
       args: ['--path', 'description']
