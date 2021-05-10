@@ -7,4 +7,4 @@ repos:
     - id: commitcanvas
       language: python
       stages: [prepare-commit-msg]
-      # args: ["--path","model"]
+      args: ["--path","model"]
