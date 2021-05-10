@@ -6,7 +6,6 @@ authors = ["bagashvilit <bagashvilit@allegheny.edu>"]
 
 [tool.poetry.dependencies]
 python = ">=3.7.1"
-reporover = { git = "https://github.com/CommittedTeam/RepoRover", branch = "repo-mining" }
 commitcanvas = { git = "https://github.com/CommittedTeam/CommitCanvas", rev = "9134cf09cf8c083e34a259231c0a3b355986e76e"}
 
 
