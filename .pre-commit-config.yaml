@@ -2,7 +2,7 @@ minimum_pre_commit_version: 1.21.0
 repos:
 
 - repo: https://github.com/CommittedTeam/CommitCanvas
-  rev: 4ad3a14cba08f508591032af0ed87fbb64c7bb80
+  rev: v0.1.2
   hooks:
   # add a test comment
     - id: commitcanvas
