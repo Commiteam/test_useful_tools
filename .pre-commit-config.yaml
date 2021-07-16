@@ -2,7 +2,7 @@ minimum_pre_commit_version: 1.21.0
 repos:
 
 - repo: https://github.com/CommittedTeam/CommitCanvas
-  rev: 5da57c66a9001e4ccf74d8f67054b08d9892b7e0
+  rev: 4ad3a14cba08f508591032af0ed87fbb64c7bb80
   hooks:
   # try disabling commitcnanv
     - id: commitcanvas
