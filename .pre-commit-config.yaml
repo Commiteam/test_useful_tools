@@ -4,7 +4,7 @@ repos:
 - repo: https://github.com/CommittedTeam/CommitCanvas
   rev: 4ad3a14cba08f508591032af0ed87fbb64c7bb80
   hooks:
-  # try disabling commitcnanv
+  # test comment
     - id: commitcanvas
       language: python
       stages: [prepare-commit-msg]
