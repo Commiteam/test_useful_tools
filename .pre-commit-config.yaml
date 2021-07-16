@@ -4,7 +4,7 @@ repos:
 - repo: https://github.com/CommittedTeam/CommitCanvas
   rev: 43b60ea35ed21895f28e5d3e441e3a99019ec1ed
   hooks:
-  # add a test comment
+  # add a test
     - id: commitcanvas
       language: python
       stages: [prepare-commit-msg]
