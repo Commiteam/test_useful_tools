@@ -3,7 +3,7 @@ repos:
 
 - repo: https://github.com/CommittedTeam/CommitCanvas
   #com
-  rev: ca7525bc5d3ad7a41ad9de4eab2aa6ac7bb2fe5e	
+  rev: 525c212aa16091ef3e6d49492c02cd73573fd4a2	
   hooks:
   # add a test
     - id: commitcanvas
