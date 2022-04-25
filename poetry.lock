@@ -32,8 +32,8 @@ typer = "^0.3.2"
 [package.source]
 type = "git"
 url = "https://github.com/CommittedTeam/CommitCanvas"
-reference = "83650042c5469c11b5af299eff6a63cf9e358cbe"
-resolved_reference = "83650042c5469c11b5af299eff6a63cf9e358cbe"
+reference = "5dd185dcc7f5bc7323403e8d8e32ba4bc099794f"
+resolved_reference = "5dd185dcc7f5bc7323403e8d8e32ba4bc099794f"
 
 [[package]]
 name = "distlib"
@@ -226,7 +226,7 @@ testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytest-
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.7.1,<4.0.0"
-content-hash = "7de303834a2e490e763ece772674fa9e80289c2a5a6d16e2703586add3dcd10b"
+content-hash = "382b8aacc2a49bedf764cff4e0c81055e906bd62f4d5f3913f2b8d3d1580c294"
 
 [metadata.files]
 cfgv = [

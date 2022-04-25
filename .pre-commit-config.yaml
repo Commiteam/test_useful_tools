@@ -3,10 +3,10 @@ repos:
 
 - repo: https://github.com/CommittedTeam/CommitCanvas
   #com
-  rev: 525c212aa16091ef3e6d49492c02cd73573fd4a2	
+  rev: 5dd185dcc7f5bc7323403e8d8e32ba4bc099794f	
   hooks:
   # add a test
     - id: commitcanvas
       language: python
       stages: [prepare-commit-msg]
-      args: ["--path","plug.py"]
+      args: ["--path","commitcanvas_plugins.py"]
