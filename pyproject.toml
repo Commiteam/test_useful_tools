@@ -6,12 +6,8 @@ authors = ["bagashvilit <bagashvilit@allegheny.edu>"]
 
 [tool.poetry.dependencies]
 python = ">=3.7.1,<4.0.0"
-# commitcanvas = { git = "https://github.com/CommittedTeam/CommitCanvas", rev = "9134cf09cf8c083e34a259231c0a3b355986e76e"}
-model = {url = "https://github.com/CommittedTeam/test_useful_tools/releases/download/0.2.1/model-0.1.0.tar.gz"}
-joblib = "^1.0.1"
-reporover = { git = "https://github.com/CommittedTeam/RepoRover", branch = "repo-mining" }
-commitcanvas_models = { git = "https://github.com/CommittedTeam/commitcanvas-models", branch = "commitcanvas-model" }
-
+commitcanvas = { git = "https://github.com/CommittedTeam/CommitCanvas", rev = "83650042c5469c11b5af299eff6a63cf9e358cbe"}
+joblib = "^1.1.0"
 
 
 [tool.poetry.dev-dependencies]
