@@ -5,10 +5,10 @@ repos:
   #revision id
   rev: 38cf0d1f95ee3ec0e3ac6771d9ca2ab6bce70c75	
   hooks:
-  # add a test
+  # 
     - id: commitcanvas
       language: python
       stages: [commit-msg]
       args: ["--path","commitcanvas_plugins.py",
-              "--disable","subject_capital_letter,"
+              "--disable","blank_line,"
       ]
