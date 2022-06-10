@@ -6,7 +6,6 @@ authors = ["bagashvilit <bagashvilit@allegheny.edu>"]
 
 [tool.poetry.dependencies]
 python = ">=3.7.1,<4.0.0"
-commitcanvas = { git = "https://github.com/CommittedTeam/CommitCanvas", rev = "5dd185dcc7f5bc7323403e8d8e32ba4bc099794f"}
 joblib = "^1.1.0"
 
 
